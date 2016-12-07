@@ -1,0 +1,25 @@
+{
+  "name": "@types/mithril-global",
+  "version": "1.0.0",
+  "description": "Types for Mithril 1.0 - Global version",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacejack/mithril-global.d.ts.git"
+  },
+  "author": "spacejack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spacejack/mithril-global.d.ts/issues"
+  },
+  "homepage": "https://github.com/spacejack/mithril-global.d.ts#readme",
+  "dependencies": {
+    "@types/mithril": "github:spacejack/mithril.d.ts"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.10"
+  }
+}
