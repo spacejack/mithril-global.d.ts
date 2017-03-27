@@ -1,7 +1,7 @@
 {
   "name": "@types/mithril-global",
-  "version": "1.0.0",
-  "description": "Types for Mithril 1.0 - Global version",
+  "version": "1.1.0",
+  "description": "Types for Mithril 1.1 - Global version",
   "main": "index.d.ts",
   "scripts": {
     "test": "tsc"
@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/spacejack/mithril-global.d.ts#readme",
   "dependencies": {
-    "@types/mithril": "github:spacejack/mithril.d.ts"
+    "@types/mithril": "github:spacejack/mithril.d.ts#dt-module"
   },
   "devDependencies": {
-    "typescript": "^2.0.10"
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
   }
 }

@@ -8,12 +8,13 @@
     "suppressImplicitAnyIndexErrors": true,
     "preserveConstEnums": true,
     "removeComments": false,
+    "strictNullChecks": true,
     "noLib": false,
     "declaration": false,
     "sourceMap": false,
     "noImplicitThis": true
   },
-  "filesGlob": ["*.ts"],
+  "include": ["*.ts", "*.d.ts"],
   "atom": {
     "rewriteTsconfig": false
   }
