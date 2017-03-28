@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/spacejack/mithril-global.d.ts#readme",
   "dependencies": {
-    "@types/mithril": "github:spacejack/mithril.d.ts#dt-module"
+    "@types/mithril": "github:spacejack/mithril.d.ts#1.1.0"
   },
   "devDependencies": {
     "tslint": "^4.5.1",
