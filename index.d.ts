@@ -1,7 +1,8 @@
-// Type definitions for Mithril 1.1 (Global)
-// Project: http://lhorie.github.io/mithril/
-// Definitions by: Leo Horie <https://github.com/lhorie>, Chris Bowdon <https://github.com/cbowdon>, Mike Linkovich <https://github.com/spacejack>, András Parditka <https://github.com/andraaspar>
+// Type definitions for Mithril 1.1
+// Project: https://mithril.js.org/
+// Definitions by: Mike Linkovich <https://github.com/spacejack>, András Parditka <https://github.com/andraaspar>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+// TypeScript Version: 2.2
 
 // Global Mithril types
 
@@ -15,21 +16,8 @@ declare namespace MithrilGlobal {
 	export type RouteDefs = mithril.RouteDefs;
 	export type RouteOptions = mithril.RouteOptions;
 	export type Route = mithril.Route;
-	export type Mount = mithril.Mount;
-	export type WithAttr = mithril.WithAttr;
-	export type ParseQueryString = mithril.ParseQueryString;
-	export type BuildQueryString = mithril.BuildQueryString;
 	export type RequestOptions<T> = mithril.RequestOptions<T>;
-	export type RequestOptionsAll<T> = mithril.RequestOptionsAll<T>;
-	export type Request = mithril.Request;
 	export type JsonpOptions = mithril.JsonpOptions;
-	export type JsonpOptionsAll = mithril.JsonpOptionsAll;
-	export type Jsonp = mithril.Jsonp;
-	export type RequestService = mithril.RequestService;
-	export type Render = mithril.Render;
-	export type RenderService = mithril.RenderService;
-	export type Redraw = mithril.Redraw;
-	export type RedrawService = mithril.RedrawService;
 	export type Child = mithril.Child;
 	export type ChildArray = mithril.ChildArray;
 	export type Children = mithril.Children;

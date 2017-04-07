@@ -1,20 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "module": "commonjs",
     "lib": ["es2015", "dom"],
     "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "preserveConstEnums": true,
-    "removeComments": false,
+    "noImplicitThis": true,
     "strictNullChecks": true,
-    "noLib": false,
-    "declaration": false,
-    "sourceMap": false,
-    "noImplicitThis": true
+    "suppressImplicitAnyIndexErrors": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["*.ts", "*.d.ts"],
+  "files": [
+    "index.d.ts",
+    "mithril-global-test.ts"
+  ],
   "atom": {
     "rewriteTsconfig": false
   }

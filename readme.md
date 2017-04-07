@@ -12,7 +12,7 @@ When this is merged to DefinitelyTyped, you can install with:
 
 Alternately, install directly from this Github repo with:
 
-	npm install -D github:spacejack/mithril-global.d.ts#1.1.0
+	npm install -D github:spacejack/mithril-global.d.ts#1.1.1
 
 If you are writing modules but are NOT bundling mithril (using mithril.js in a script tag) then you will need to add the following type definition file to your project:
 
