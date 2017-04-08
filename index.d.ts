@@ -30,6 +30,7 @@ declare namespace MithrilGlobal {
 	export type Comp<A,S> = mithril.Comp<A,S>
 	export type ClassComponent<A> = mithril.ClassComponent<A>;
 	export type FactoryComponent<A> = mithril.FactoryComponent<A>;
+	export type ComponentTypes<A,S> = mithril.ComponentTypes<A,S>;
 	export type Attributes = mithril.Attributes;
 	export type Stream<T> = stream.Stream<T>;
 	export type Static = mithril.Static & {stream: stream.Static};
