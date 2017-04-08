@@ -1,10 +1,12 @@
 // Type definitions for Mithril 1.1
 // Project: https://mithril.js.org/
-// Definitions by: Mike Linkovich <https://github.com/spacejack>, András Parditka <https://github.com/andraaspar>
+// Definitions by: Mike Linkovich <https://github.com/spacejack>, Isiah Meadows <https://github.com/isiahmeadows>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.2
 
 // Global Mithril types
+
+/// <reference types="mithril" />
 
 import * as mithril from 'mithril';
 import * as stream from 'mithril/stream';
